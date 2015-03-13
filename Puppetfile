@@ -25,4 +25,6 @@ mod 'notifyme',
 mod 'profiles',
   :git => 'git://github.com/jameseck/puppet-profiles'
 
+mod 'roles',
+  :git => 'git://github.com/jameseck/puppet-roles'
 
