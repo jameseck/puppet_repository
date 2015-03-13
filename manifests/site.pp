@@ -44,4 +44,5 @@ node default {
   # Example:
   #   class { 'my_class': }
   include profiles::notify_a_message
+  notify { "notifymsgje": message => "I just added this notify." }
 }
