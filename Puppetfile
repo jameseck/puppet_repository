@@ -23,7 +23,7 @@ mod 'notifyme',
 #  :ref => '3611ae4253ff01762f9bda1d93620edf8f9a3b22'
 
 mod 'profiles',
-  :git => 'git://github.com/jameseck/puppet-profiles'
-#  :ref => 'production'
+  :git => 'git://github.com/jameseck/puppet-profiles',
+  :ref => 'production'
 
 
