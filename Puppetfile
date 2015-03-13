@@ -2,9 +2,16 @@ forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
 mod "puppetlabs/apache"
-mod "puppetlabs/ntp"
+mod "puppetlabs/apt"
+mod "puppetlabs/concat"
+mod "puppetlabs/firewall"
 mod "puppetlabs/inifile"
+mod "puppetlabs/ntp"
 mod "puppetlabs/puppetdb"
+mod "puppetlabs/stdlib"
+mod "saz/ssh"
+mod "jfryman/nginx"
+mod "blentz/selinux_types"
 
 # Modules from Github using various references
 mod 'notifyme',
