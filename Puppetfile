@@ -24,6 +24,5 @@ mod 'notifyme',
 
 mod 'profiles',
   :git => 'git://github.com/jameseck/puppet-profiles',
-  :ref => 'production'
 
 
