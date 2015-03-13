@@ -19,7 +19,7 @@
 
 # Define filebucket 'main':
 filebucket { 'main':
-  server => 'master',
+  server => 'foreman',
   path   => false,
 }
 
@@ -43,6 +43,5 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  include profiles::notify_a_message
   notify { "notifymsgje": message => "I just added this notify." }
 }
