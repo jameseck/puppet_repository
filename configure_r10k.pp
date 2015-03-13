@@ -7,10 +7,10 @@
 ##  Beware! (and good luck!)
 
 class { 'r10k':
-  version           => '1.3.2',
+  #version           => '1.4.1',
   sources           => {
     'puppet' => {
-      'remote'  => 'https://github.com/glarizza/puppet_repository.git',
+      'remote'  => 'https://github.com/jameseck/puppet_repository.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     }
