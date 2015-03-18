@@ -43,5 +43,5 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  notify { "notifymsgje": message => "I just added this notify." }
+  notify { 'notifymsgje': message => 'I just added this notify.' }
 }
