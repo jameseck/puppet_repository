@@ -7,3 +7,6 @@ je_ssh_key: ENC[PKCS7,MIIC7QYJKoZIhvcNAQcDoIIC3jCCAtoCAQAxggEhMIIBHQIBADAFMAACAQ
 
 ntp::servers:
   - 192.168.1.1
+ssh::storeconfigs_enabled: false
+ssh::server_options:
+  UseDNS: "no"
