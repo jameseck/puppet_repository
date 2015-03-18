@@ -19,7 +19,7 @@
 
 # Define filebucket 'main':
 filebucket { 'main':
-  server => 'foreman',
+  server => 'foreman.je.home',
   path   => false,
 }
 
