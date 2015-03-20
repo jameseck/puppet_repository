@@ -3,8 +3,8 @@
   - eyaml
   - yaml
 :hierarchy:
-  - "%{clientcert}"
-  - "%{role}"
+  - "fqdn/%{clientcert}"
+  - "role/%{role}"
   - common
 
 :yaml:
