@@ -13,6 +13,7 @@ mod "saz/ssh"
 mod "jfryman/nginx"
 mod "blentz/selinux_types"
 mod "puppetlabs/java"
+mod "saz/sudo"
 
 # Modules from Github using various references
 mod 'notifyme',
