@@ -10,3 +10,7 @@ ntp::servers:
 ssh::storeconfigs_enabled: false
 ssh::server_options:
   UseDNS: "no"
+sudo::configs:
+  james:
+    content: "%james ALL=(ALL) NOPASSWD: ALL"
+    priority: 10
