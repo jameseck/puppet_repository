@@ -12,6 +12,7 @@ mod "puppetlabs/stdlib"
 mod "saz/ssh"
 mod "jfryman/nginx"
 mod "blentz/selinux_types"
+mod "puppetlabs/java"
 
 # Modules from Github using various references
 mod 'notifyme',
