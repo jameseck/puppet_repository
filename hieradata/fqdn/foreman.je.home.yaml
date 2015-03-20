@@ -3,9 +3,9 @@ puppet_config:
     logdir: /var/log/puppet
     rundir: /var/run/puppet
     ssldir: $vardir/ssl
-    privatekeydir: "$ssldir/private_keys { group: service }"
-    hostprivkey: "$privatekeydir/$certname.pem { mode: 640 }"
-    autosign: "$confdir/autosign.conf { mode: 664 }"
+    privatekeydir: "$ssldir/private_keys { group = service }"
+    hostprivkey: "$privatekeydir/$certname.pem { mode = 640 }"
+    autosign: "$confdir/autosign.conf { mode = 664 }"
     show_diff: false
     hiera_config: $confdir/hiera.yaml
   agent:
@@ -26,7 +26,7 @@ puppet_config:
     configtimeout: 120
     usecacheonfailure: true
   master:
-    autosign: "$confdir/autosign.conf { mode: 664 }"
+    autosign: "$confdir/autosign.conf { mode = 664 }"
     reports: foreman
     external_nodes: /etc/puppet/node.rb
     node_terminus: exec
