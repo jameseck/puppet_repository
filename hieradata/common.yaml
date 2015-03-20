@@ -14,3 +14,17 @@ sudo::configs:
   james:
     content: "%james ALL=(ALL) NOPASSWD: ALL"
     priority: 10
+puppet_config:
+  main:
+    ssldir: /var/lib/puppet/ssl
+    pluginsync: true
+  agent:
+    runinterval: 3600
+    splay: true
+    environment: "%{::environment}"
+    configtimeout: 180
+    ca_server: puppet-ca
+    ca_port: 8141
+    rundir: /var/run/puppet # Otherwise agent won't run properly on EL6 clients
+    classfile: /var/lib/puppet/classes.txt
+
