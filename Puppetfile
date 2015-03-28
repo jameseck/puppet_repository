@@ -14,6 +14,7 @@ mod "jfryman/nginx"
 mod "blentz/selinux_types"
 mod "puppetlabs/java"
 mod "saz/sudo"
+mod "arioch/keepalived"
 
 # Modules from Github using various references
 mod 'notifyme',
