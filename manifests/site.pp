@@ -27,7 +27,12 @@ filebucket { 'main':
 File { backup => 'main' }
 
 # Kill deprecation warnings in PE 3.3:
-Package { allow_virtual => false }
+if versioncmp($::puppetversion,'3.6.1') >= 0 {
+  $allow_virtual_packages = hiera('allow_virtual_packages',false)
+  Package {
+    allow_virtual => $allow_virtual_packages,
+  }
+}
 
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
