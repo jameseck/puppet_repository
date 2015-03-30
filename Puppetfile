@@ -28,13 +28,13 @@ mod "arioch/keepalived"
 #  :ref => '3611ae4253ff01762f9bda1d93620edf8f9a3b22'
 
 mod 'profiles',
-  :git => 'https://github.com/jameseck/puppet-profiles'
+  :git => 'git@github.com/jameseck/puppet-profiles'
 
 mod 'roles',
-  :git => 'https://github.com/jameseck/puppet-roles'
+  :git => 'git@github.com/jameseck/puppet-roles'
 
 mod 'puppet',
-  :git => 'https://github.com/jameseck/puppet-puppet'
+  :git => 'git@github.com/jameseck/puppet-puppet'
 
 mod 'sabnzbbd',
-  :git => 'https://github.com/jameseck/puppet-sabnzbd'
+  :git => 'git@github.com/jameseck/puppet-sabnzbd'
