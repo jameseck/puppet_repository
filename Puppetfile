@@ -37,4 +37,4 @@ mod 'puppet',
   :git => 'https://github.com/jameseck/puppet-puppet'
 
 mod 'sabnzbbd',
-  :git => 'https://github.com/jameseck/sabnzbd'
+  :git => 'https://github.com/jameseck/puppet-sabnzbd'
