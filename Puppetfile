@@ -36,5 +36,5 @@ mod 'roles',
 mod 'puppet',
   :git => 'git://github.com/jameseck/puppet-puppet'
 
-mod 'sabnzbbd',
+mod 'sabnzbd',
   :git => 'git://github.com/jameseck/puppet-sabnzbd'
