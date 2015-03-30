@@ -26,6 +26,8 @@ filebucket { 'main':
 # Make filebucket 'main' the default backup location for all File resources:
 File { backup => 'main' }
 
+Exec { path => '/usr/sbin:/usr/bin:/sbin:/bin' }
+
 # Kill deprecation warnings in PE 3.3:
 if versioncmp($::puppetversion,'3.6.1') >= 0 {
   $allow_virtual_packages = hiera('allow_virtual_packages',false)
