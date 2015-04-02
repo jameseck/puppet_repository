@@ -18,7 +18,6 @@ mod "puppetlabs/java"
 mod "saz/sudo"
 mod "arioch/keepalived"
 mod "thias/samba"
-mod "camptocamp/nfs"
 
 ## Modules from Github using various references
 #mod 'notifyme',
