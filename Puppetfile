@@ -39,5 +39,5 @@ mod 'puppet',
 
 mod 'sabnzbd',
   :git => 'git://github.com/jameseck/puppet-sabnzbd'
-mode 'nfs',
+mod 'nfs',
   :git => 'git://github.com/jameseck/puppet-nfs'
