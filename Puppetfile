@@ -17,6 +17,7 @@ mod "blentz/selinux_types"
 mod "puppetlabs/java"
 mod "saz/sudo"
 mod "arioch/keepalived"
+mod "thias/samba"
 
 ## Modules from Github using various references
 #mod 'notifyme',
