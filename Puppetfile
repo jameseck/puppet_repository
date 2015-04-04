@@ -19,6 +19,7 @@ mod "blentz/selinux_types"
 mod "puppetlabs/java"
 mod "arioch/keepalived"
 mod "thias/samba"
+mod "fiddyspence/sysctl"
 
 ## Modules from Github using various references
 #mod 'notifyme',
