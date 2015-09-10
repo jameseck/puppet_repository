@@ -1,4 +1,3 @@
 ---
 profiles::keepalived_dns::priority: 100
 profiles::keepalived_dns::state: BACKUP
-profiles::keepalived_dns::checkip: '%{ipaddress}'

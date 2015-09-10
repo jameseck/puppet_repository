@@ -36,4 +36,3 @@ puppet_config:
     strict_variables: false
     environmentpath: /etc/puppet/environments
     basemodulepath: /etc/puppet/environments/common:/etc/puppet/modules:/usr/share/puppet/modules
-profiles::keepalived_dns::checkip: '%{ipaddress}'
