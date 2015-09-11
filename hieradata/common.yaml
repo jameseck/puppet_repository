@@ -35,8 +35,8 @@ puppet::puppet_master_ip: 192.168.1.3
 puppet::puppet_ca_ip: 192.168.1.3
 
 ssh::users_client_options:
-  root:
-    options:
+  'root':
+    'options':
       'Host *':
         User: root
         AgentForwarding: yes
