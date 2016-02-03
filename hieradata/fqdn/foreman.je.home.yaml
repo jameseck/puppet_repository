@@ -1,4 +1,7 @@
 mcollective::middleware: true
+mcollective::ssl_ca_cert: file:///var/lib/puppet/ssl/certs/ca.pem
+mcollective::ssl_server_public: file:///var/lib/puppet/ssl/certs/foreman.je.home.pem
+mcollective::ssl_server_private: file:///var/lib/puppet/ssl/private_keys/foreman.je.home.pem
 puppet_config:
   main:
     logdir: /var/log/puppet
