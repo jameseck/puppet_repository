@@ -1,3 +1,4 @@
+mcollective::middleware: true
 puppet_config:
   main:
     logdir: /var/log/puppet
