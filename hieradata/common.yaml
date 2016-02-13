@@ -1,4 +1,5 @@
 ---
+yum_cron::apply_updates: true
 mcollective::middleware_hosts:
   - foreman.je.home
 mcollective::middleware_ssl: true
