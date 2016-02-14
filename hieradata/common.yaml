@@ -1,4 +1,5 @@
 ---
+postfix::inet_interfaces: localhost
 postfix::config:
   relayhost: "[192.168.1.2]"
 yum_cron::apply_updates: true

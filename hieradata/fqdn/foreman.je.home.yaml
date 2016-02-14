@@ -1,4 +1,5 @@
 ---
+postfix::inet_interfaces: all
 postfix::config:
   relayhost: "[127.0.0.1]:10465"
   smtp_use_tls: no
