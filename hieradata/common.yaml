@@ -1,4 +1,6 @@
 ---
+postfix::config:
+  relayhost: "[192.168.1.2]"
 yum_cron::apply_updates: true
 mcollective::middleware_hosts:
   - foreman.je.home

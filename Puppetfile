@@ -23,6 +23,7 @@ mod "puppetlabs/java"
 mod "arioch/keepalived"
 mod "thias/samba"
 mod "fiddyspence/sysctl"
+mod "camptocamp/postfix"
 
 ## Modules from Github using various references
 #mod 'notifyme',
