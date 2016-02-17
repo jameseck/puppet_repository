@@ -5,6 +5,7 @@ puppetdb::certificate_whitelist:
   - jehomeclient.je.home
 puppetdb::globals::version: '2.3.8-1.el7'
 puppetdb::master::config::terminus_package: puppetdb-terminus
+puppetdb::master::config::puppet_service_name: httpd
 postfix::inet_interfaces: all
 postfix::config:
   relayhost: "[127.0.0.1]:10465"
