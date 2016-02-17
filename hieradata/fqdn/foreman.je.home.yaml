@@ -1,8 +1,8 @@
 ---
 puppetdb::database: embedded
-puppetdb::puppetdb_version: 2.3.8
 puppetdb::certificate_whitelist:
   - jehomeclient.je.home
+puppetdb::master::config::puppetdb_version: 2.3.8
 postfix::inet_interfaces: all
 postfix::config:
   relayhost: "[127.0.0.1]:10465"
