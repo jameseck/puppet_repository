@@ -2,7 +2,7 @@
 puppetdb::database: embedded
 puppetdb::certificate_whitelist:
   - jehomeclient.je.home
-puppetdb::globals::_version: '2.3.8'
+puppetdb::globals::version: '2.3.8'
 puppetdb::master::config::terminus_package: puppetdb-terminus
 postfix::inet_interfaces: all
 postfix::config:
