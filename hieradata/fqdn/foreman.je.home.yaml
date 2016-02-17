@@ -48,12 +48,14 @@ puppet_config:
     usecacheonfailure: true
   master:
     autosign: "$confdir/autosign.conf { mode = 664 }"
-    reports: foreman
+    reports: foreman, puppetdb
     external_nodes: /etc/puppet/node.rb
     node_terminus: exec
     ca: true
     ssldir: /var/lib/puppet/ssl
     certname: foreman.je.home
     strict_variables: false
+    storeconfigs: true
+    storeconfigs_backend: puppetdb
     environmentpath: /etc/puppet/environments
     basemodulepath: /etc/puppet/environments/common:/etc/puppet/modules:/usr/share/puppet/modules
