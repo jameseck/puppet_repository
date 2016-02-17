@@ -1,6 +1,7 @@
 ---
 puppetdb::database: embedded
 puppetdb::certificate_whitelist:
+  - foreman.je.home
   - jehomeclient.je.home
 puppetdb::globals::version: '2.3.8-1.el7'
 puppetdb::master::config::terminus_package: puppetdb-terminus
