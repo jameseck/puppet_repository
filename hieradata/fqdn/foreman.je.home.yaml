@@ -18,7 +18,7 @@ postfix_config:
   'smtp_tls_CAfile':
     value: '/etc/pki/tls/certs/ca-bundle.crt'
   'smtp_sasl_security_options':
-    ensure: absent
+    ensure: blank
   'sender_canonical_maps':
     value: 'regexp:/etc/postfix/sender_canonical'
 mcollective::middleware: true
