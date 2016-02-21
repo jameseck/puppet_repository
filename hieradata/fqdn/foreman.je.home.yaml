@@ -14,13 +14,13 @@ postfix_config:
   'smtp_sasl_auth_enable':
     value: yes
   'smtp_sasl_password_maps':
-    value: hash:/etc/postfix/sasl_passwd
+    value: 'hash:/etc/postfix/sasl_passwd'
   'smtp_tls_CAfile':
-    value: /etc/pki/tls/certs/ca-bundle.crt
+    value: '/etc/pki/tls/certs/ca-bundle.crt'
   'smtp_sasl_security_options':
     value: ''
   'sender_canonical_maps':
-    value: regexp:/etc/postfix/sender_canonical
+    value: 'regexp:/etc/postfix/sender_canonical'
 mcollective::middleware: true
 mcollective::ssl_ca_cert: file:///var/lib/puppet/ssl/certs/ca.pem
 mcollective::ssl_server_public: file:///var/lib/puppet/ssl/certs/foreman.je.home.pem
