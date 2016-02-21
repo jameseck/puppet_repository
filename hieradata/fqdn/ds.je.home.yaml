@@ -1,0 +1,6 @@
+---
+ssh::server_options:
+  Protocol: '2'
+  ListenAddress:
+    - '0.0.0.0:3000'
+    - '192.168.1.42:22'
