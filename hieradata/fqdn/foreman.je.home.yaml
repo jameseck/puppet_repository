@@ -9,13 +9,18 @@ puppetdb::master::config::puppet_service_name: httpd
 postfix::inet_interfaces: all
 postfix::relayhost: "[127.0.0.1]:10465"
 postfix_config:
-  smtp_use_tls: no
-  smtp_sasl_auth_enable: yes
-  smtp_sasl_password_maps: hash:/etc/postfix/sasl_passwd
-  smtp_tls_CAfile: /etc/pki/tls/certs/ca-bundle.crt
-  smtp_sasl_security_options:
-  sender_canonical_maps: regexp:/etc/postfix/sender_canonical
-
+  'smtp_use_tls':
+    value: no
+  'smtp_sasl_auth_enable':
+    value: yes
+  'smtp_sasl_password_maps':
+    value: hash:/etc/postfix/sasl_passwd
+  'smtp_tls_CAfile':
+    value: /etc/pki/tls/certs/ca-bundle.crt
+  'smtp_sasl_security_options':
+    value: ''
+  'sender_canonical_maps':
+    value: regexp:/etc/postfix/sender_canonical
 mcollective::middleware: true
 mcollective::ssl_ca_cert: file:///var/lib/puppet/ssl/certs/ca.pem
 mcollective::ssl_server_public: file:///var/lib/puppet/ssl/certs/foreman.je.home.pem
