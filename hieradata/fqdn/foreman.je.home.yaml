@@ -10,9 +10,9 @@ postfix::inet_interfaces: all
 postfix::relayhost: "[127.0.0.1]:10465"
 postfix_config:
   'smtp_use_tls':
-    value: no
+    value: 'no'
   'smtp_sasl_auth_enable':
-    value: yes
+    value: 'yes'
   'smtp_sasl_password_maps':
     value: 'hash:/etc/postfix/sasl_passwd'
   'smtp_tls_CAfile':
