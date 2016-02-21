@@ -8,7 +8,7 @@ puppetdb::master::config::terminus_package: puppetdb-terminus
 puppetdb::master::config::puppet_service_name: httpd
 postfix::inet_interfaces: all
 postfix::relayhost: "[127.0.0.1]:10465"
-postfix::config:
+postfix_config:
   smtp_use_tls: no
   smtp_sasl_auth_enable: yes
   smtp_sasl_password_maps: hash:/etc/postfix/sasl_passwd
