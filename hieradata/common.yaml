@@ -33,7 +33,7 @@ puppet_config:
     server: foreman.je.home
     ca_server: foreman.je.home
     ca_port: 8140
-    rundir: /var/run/puppet # Otherwise agent won't run properly on EL6 clients
+    rundir: /run/puppet # Otherwise agent won't run properly on EL6 clients
     classfile: /var/lib/puppet/classes.txt
 
 puppet::puppet_master_host: foreman.je.home
